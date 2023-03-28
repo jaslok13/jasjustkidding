@@ -1,0 +1,11 @@
+D:\JAS\JAS Just Kidding\JAS Just Kidding\bin\Debug\JAS Just Kidding.exe.config
+D:\JAS\JAS Just Kidding\JAS Just Kidding\bin\Debug\JAS Just Kidding.exe
+D:\JAS\JAS Just Kidding\JAS Just Kidding\bin\Debug\JAS Just Kidding.pdb
+D:\JAS\JAS Just Kidding\JAS Just Kidding\bin\Debug\JAS Just Kidding.xml
+D:\JAS\JAS Just Kidding\JAS Just Kidding\obj\Debug\JAS_Just_Kidding.Resources.resources
+D:\JAS\JAS Just Kidding\JAS Just Kidding\obj\Debug\JAS Just Kidding.vbproj.GenerateResource.cache
+D:\JAS\JAS Just Kidding\JAS Just Kidding\obj\Debug\JAS Just Kidding.vbproj.CoreCompileInputs.cache
+D:\JAS\JAS Just Kidding\JAS Just Kidding\obj\Debug\JAS Just Kidding.exe
+D:\JAS\JAS Just Kidding\JAS Just Kidding\obj\Debug\JAS Just Kidding.xml
+D:\JAS\JAS Just Kidding\JAS Just Kidding\obj\Debug\JAS Just Kidding.pdb
+D:\JAS\JAS Just Kidding\JAS Just Kidding\obj\Debug\JAS Just Kidding.vbproj.AssemblyReference.cache
