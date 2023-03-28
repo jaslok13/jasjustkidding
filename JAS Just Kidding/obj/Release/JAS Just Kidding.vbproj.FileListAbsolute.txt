@@ -13,7 +13,6 @@ D:\JAS\jasjustkidding\JAS Just Kidding\bin\Release\JAS Just Kidding.exe.config
 D:\JAS\jasjustkidding\JAS Just Kidding\bin\Release\JAS Just Kidding.exe
 D:\JAS\jasjustkidding\JAS Just Kidding\bin\Release\JAS Just Kidding.pdb
 D:\JAS\jasjustkidding\JAS Just Kidding\bin\Release\JAS Just Kidding.xml
-D:\JAS\jasjustkidding\JAS Just Kidding\obj\Release\JAS Just Kidding.vbproj.AssemblyReference.cache
 D:\JAS\jasjustkidding\JAS Just Kidding\obj\Release\JAS_Just_Kidding.Resources.resources
 D:\JAS\jasjustkidding\JAS Just Kidding\obj\Release\JAS Just Kidding.vbproj.GenerateResource.cache
 D:\JAS\jasjustkidding\JAS Just Kidding\obj\Release\JAS Just Kidding.vbproj.CoreCompileInputs.cache

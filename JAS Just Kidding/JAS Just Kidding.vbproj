@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{39D7068E-7BFA-45B0-A226-8EE85DA6BBD2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>JAS_Just_Kidding.YouTube</StartupObject>
+    <StartupObject>JAS_Just_Kidding.Certificates</StartupObject>
     <RootNamespace>JAS_Just_Kidding</RootNamespace>
     <AssemblyName>JAS Just Kidding</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,6 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Certificates.vb" />
     <Compile Include="YouTube.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
