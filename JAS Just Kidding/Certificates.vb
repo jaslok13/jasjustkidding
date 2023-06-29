@@ -36,25 +36,26 @@ Module Certificates
                 Dim PID, OU As String
 
                 For Each pid_cert As System.Security.Cryptography.X509Certificates.X509Certificate2 In store.Certificates
-                    Cert_Expired = False
-                    Text_Certificate = False
-                    NVSC_Certificate = False
-                    PID = System.Text.RegularExpressions.Regex.Match(input:=pid_cert.Subject.ToUpper, pattern:=text_RegexPattern_PID).Value.Trim
-                    OU = System.Text.RegularExpressions.Regex.Match(input:=pid_cert.Subject.ToUpper, pattern:=text_RegexPattern_OU).Value.Trim
+                    If pid_cert.Issuer.Contains("Credit Suisse") Then
+                        Cert_Expired = False
+                        Text_Certificate = False
+                        NVSC_Certificate = False
+                        PID = System.Text.RegularExpressions.Regex.Match(input:=pid_cert.Subject.ToUpper, pattern:=text_RegexPattern_PID).Value.Trim
+                        OU = System.Text.RegularExpressions.Regex.Match(input:=pid_cert.Subject.ToUpper, pattern:=text_RegexPattern_OU).Value.Trim
 
-                    If Microsoft.VisualBasic.DateAndTime.DateDiff(Interval:=Microsoft.VisualBasic.DateInterval.Day, Date1:=pid_cert.NotAfter.Date, Date2:=DateAndTime.Now.Date) > 0 Then
-                        Cert_Expired = True
+                        If Microsoft.VisualBasic.DateAndTime.DateDiff(Interval:=Microsoft.VisualBasic.DateInterval.Day, Date1:=pid_cert.NotAfter.Date, Date2:=DateAndTime.Now.Date) > 0 Then
+                            Cert_Expired = True
+                        End If
+
+                        If pid_cert.Issuer.ToLower.Contains("test") Then
+                            Text_Certificate = True
+                        End If
+
+                        If OU.Equals("VSC") Then
+                            NVSC_Certificate = True
+                        End If
+                        dt_PID_Cert_List.Rows.Add(PID, Text_Certificate, NVSC_Certificate, pid_cert.NotAfter, Cert_Expired)
                     End If
-
-                    If pid_cert.Issuer.ToLower.Contains("test") Then
-                        Text_Certificate = True
-                    End If
-
-                    If OU.Equals("VSC") Then
-                        NVSC_Certificate = True
-                    End If
-
-                    dt_PID_Cert_List.Rows.Add(PID, Text_Certificate, NVSC_Certificate, pid_cert.NotAfter, Cert_Expired)
                 Next
                 If dt_PID_Cert_List.Rows.Count > 0 Then
                     'Filter unique rows

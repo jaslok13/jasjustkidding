@@ -20,3 +20,7 @@ D:\JAS\jasjustkidding\JAS Just Kidding\obj\Debug\JAS Just Kidding.vbproj.CoreCom
 D:\JAS\jasjustkidding\JAS Just Kidding\obj\Debug\JAS Just Kidding.exe
 D:\JAS\jasjustkidding\JAS Just Kidding\obj\Debug\JAS Just Kidding.xml
 D:\JAS\jasjustkidding\JAS Just Kidding\obj\Debug\JAS Just Kidding.pdb
+D:\JAS\jasjustkidding\JAS Just Kidding\bin\Debug\JasDLL.dll
+D:\JAS\jasjustkidding\JAS Just Kidding\bin\Debug\JasDLL.pdb
+D:\JAS\jasjustkidding\JAS Just Kidding\bin\Debug\JasDLL.xml
+D:\JAS\jasjustkidding\JAS Just Kidding\obj\Debug\JAS Just Kidding.vbproj.CopyComplete
