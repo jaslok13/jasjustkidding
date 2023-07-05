@@ -1,0 +1,10 @@
+D:\JAS\jasjustkidding\JAS DLL\obj\Debug\JasDLL.vbproj.GenerateResource.cache
+D:\JAS\jasjustkidding\JAS DLL\obj\Debug\JasDLL.vbproj.CoreCompileInputs.cache
+D:\JAS\jasjustkidding\JAS DLL\bin\Debug\JASRPAFunctions.dll
+D:\JAS\jasjustkidding\JAS DLL\bin\Debug\JASRPAFunctions.pdb
+D:\JAS\jasjustkidding\JAS DLL\bin\Debug\JASRPAFunctions.xml
+D:\JAS\jasjustkidding\JAS DLL\obj\Debug\JasDLL.vbproj.AssemblyReference.cache
+D:\JAS\jasjustkidding\JAS DLL\obj\Debug\JASRPAFunctions.Resources.resources
+D:\JAS\jasjustkidding\JAS DLL\obj\Debug\JASRPAFunctions.dll
+D:\JAS\jasjustkidding\JAS DLL\obj\Debug\JASRPAFunctions.xml
+D:\JAS\jasjustkidding\JAS DLL\obj\Debug\JASRPAFunctions.pdb

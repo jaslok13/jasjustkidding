@@ -1,5 +1,7 @@
-﻿Public Class TextFile_Functions
-    Public Shared Function Get_CSV_Data(strCSVFilePath As String) As System.Data.DataTable
+﻿Imports System.Linq
+Imports System.Collections.Generic
+Public Class TextFileFunctions
+    Public Function GetCSVData(strCSVFilePath As String) As DataTable
         Dim dtCSV_Data As New System.Data.DataTable
         If System.IO.File.Exists(strCSVFilePath) Then
             Dim tfp As Microsoft.VisualBasic.FileIO.TextFieldParser = New Microsoft.VisualBasic.FileIO.TextFieldParser(strCSVFilePath)
@@ -26,10 +28,11 @@
         Else
             Throw New Exception("File not found: " & strCSVFilePath)
         End If
+        'Since Automation Anywhere does not support DataTable object type so we are returing array of DataRow
         Return dtCSV_Data
     End Function
 
-    Public Shared Function Get_Text(strTextFilePath As String) As String
+    Public Shared Function GetText(strTextFilePath As String) As String
         Dim strCSV_Text As String = String.Empty
         If System.IO.File.Exists(strTextFilePath) Then
             strCSV_Text = My.Computer.FileSystem.ReadAllText(strTextFilePath)
@@ -38,5 +41,6 @@
         End If
         Return strCSV_Text
     End Function
+
 End Class
 

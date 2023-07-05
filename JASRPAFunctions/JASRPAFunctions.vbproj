@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2129AFCE-5CD0-4E31-A7AD-FCF4C387F7CB}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>JasDLL</RootNamespace>
-    <AssemblyName>JasDLL</AssemblyName>
+    <RootNamespace>JASRPAFunctions</RootNamespace>
+    <AssemblyName>JASRPAFunctions</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -19,7 +19,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>JasDLL.xml</DocumentationFile>
+    <DocumentationFile>JASRPAFunctions.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -28,7 +28,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>JasDLL.xml</DocumentationFile>
+    <DocumentationFile>JASRPAFunctions.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -64,8 +64,9 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataTable_Functions.vb" />
-    <Compile Include="OLEDB_Functions.vb" />
+    <Compile Include="DataTableFunctions.vb" />
+    <Compile Include="FileFolderFunctions.vb" />
+    <Compile Include="OLEDBFunctions.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -82,7 +83,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="TextFile_Functions.vb" />
+    <Compile Include="TextFileFunctions.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

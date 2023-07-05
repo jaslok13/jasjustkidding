@@ -64,9 +64,9 @@ Namespace My
     Friend Module MySettingsProperty
         
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>  _
-        Friend ReadOnly Property Settings() As Global.JasDLL.My.MySettings
+        Friend ReadOnly Property Settings() As Global.JASRPAFunctions.My.MySettings
             Get
-                Return Global.JasDLL.My.MySettings.Default
+                Return Global.JASRPAFunctions.My.MySettings.Default
             End Get
         End Property
     End Module

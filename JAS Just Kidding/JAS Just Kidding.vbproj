@@ -63,8 +63,8 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="JasDLL">
-      <HintPath>..\JAS DLL\bin\Debug\JasDLL.dll</HintPath>
+    <Reference Include="JASRPAFunctions">
+      <HintPath>..\JASRPAFunctions\bin\Debug\JASRPAFunctions.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
