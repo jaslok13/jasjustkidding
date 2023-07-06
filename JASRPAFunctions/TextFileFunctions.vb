@@ -26,7 +26,7 @@ Public Class TextFileFunctions
                 Next
             End While
         Else
-            Throw New Exception("File not found: " & strCSVFilePath)
+            Throw New System.Exception("File not found: " & strCSVFilePath)
         End If
         'Since Automation Anywhere does not support DataTable object type so we are returing array of DataRow
         Return dtCSV_Data
@@ -37,10 +37,9 @@ Public Class TextFileFunctions
         If System.IO.File.Exists(strTextFilePath) Then
             strCSV_Text = My.Computer.FileSystem.ReadAllText(strTextFilePath)
         Else
-            Throw New Exception("File not found: " & strTextFilePath)
+            Throw New System.Exception("File not found: " & strTextFilePath)
         End If
         Return strCSV_Text
     End Function
-
 End Class
 
