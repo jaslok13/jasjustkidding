@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AIPFunctions.vb" />
+    <Compile Include="CertificateFunctions.vb" />
     <Compile Include="DataTableFunctions.vb" />
     <Compile Include="FileFolderFunctions.vb" />
     <Compile Include="OLEDBFunctions.vb" />

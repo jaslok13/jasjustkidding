@@ -1,7 +1,7 @@
 ﻿Imports System.Linq
 Imports System.Collections.Generic
 Public Class TextFileFunctions
-    Public Function GetCSVData(strCSVFilePath As String) As DataTable
+    Public Shared Function GetCSVData(strCSVFilePath As String) As DataTable
         Dim dtCSV_Data As New System.Data.DataTable
         If System.IO.File.Exists(strCSVFilePath) Then
             Dim tfp As Microsoft.VisualBasic.FileIO.TextFieldParser = New Microsoft.VisualBasic.FileIO.TextFieldParser(strCSVFilePath)

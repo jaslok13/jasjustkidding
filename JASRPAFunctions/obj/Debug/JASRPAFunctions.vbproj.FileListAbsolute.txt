@@ -7,4 +7,3 @@ D:\JAS\jasjustkidding\JASRPAFunctions\obj\Debug\JASRPAFunctions.vbproj.CoreCompi
 D:\JAS\jasjustkidding\JASRPAFunctions\obj\Debug\JASRPAFunctions.dll
 D:\JAS\jasjustkidding\JASRPAFunctions\obj\Debug\JASRPAFunctions.xml
 D:\JAS\jasjustkidding\JASRPAFunctions\obj\Debug\JASRPAFunctions.pdb
-D:\JAS\jasjustkidding\JASRPAFunctions\obj\Debug\JASRPAFunctions.vbproj.AssemblyReference.cache
