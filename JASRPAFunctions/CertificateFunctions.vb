@@ -43,7 +43,15 @@
                 dtCertList = dtCertList.DefaultView.ToTable(True)
             End If
         End If
-
         Return dtCertList
+    End Function
+
+    Public Shared Function CheckPIDCertificateExist(strPID As String, Optional boolTestCert As Boolean = False) As Boolean
+        Dim boolCertExist As Boolean = False
+        Dim dtCertList As System.Data.DataTable = GetCertificateList()
+        If dtCertList.Rows.Count > 0 Then
+            boolCertExist = dtCertList.Select("Expired=False AND PID='" & strPID & "' AND TestCert=" & boolTestCert.ToString).Count > 0
+        End If
+        Return boolCertExist
     End Function
 End Class

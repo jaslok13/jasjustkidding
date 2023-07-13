@@ -67,6 +67,7 @@
     <Compile Include="AIPFunctions.vb" />
     <Compile Include="CertificateFunctions.vb" />
     <Compile Include="DataTableFunctions.vb" />
+    <Compile Include="DateTimeFunctions.vb" />
     <Compile Include="FileFolderFunctions.vb" />
     <Compile Include="OLEDBFunctions.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />

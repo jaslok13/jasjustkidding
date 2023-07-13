@@ -12,8 +12,17 @@
             Return dtInput
         End If
     End Function
-    Public Shared Function FindAndGetFirstRowIndex(dtInput As System.Data.DataTable, strFilterQuery As String) As Integer
+    Public Function FindAndGetFirstRowIndex(dtInput As System.Data.DataTable, strFilterQuery As String) As Integer
         Dim intRowIndex As Integer = -1
         Return intRowIndex
+    End Function
+    Public Shared Function FindAndGetRowCount(dtInput As System.Data.DataTable, strFilterQuery As String) As Integer
+        Dim intRowCount As Integer = 0
+        If dtInput.Rows.Count > 0 Then
+            intRowCount = dtInput.Select("" & strFilterQuery & "").Count
+        Else
+            Throw New System.Exception("No rows in input DataTable")
+        End If
+        Return intRowCount
     End Function
 End Class
