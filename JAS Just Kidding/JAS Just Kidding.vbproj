@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{39D7068E-7BFA-45B0-A226-8EE85DA6BBD2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>JAS_Just_Kidding.TestDLL</StartupObject>
+    <StartupObject>JAS_Just_Kidding.Test</StartupObject>
     <RootNamespace>JAS_Just_Kidding</RootNamespace>
     <AssemblyName>JAS Just Kidding</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -88,7 +88,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Certificates.vb" />
-    <Compile Include="TestDLL.vb" />
+    <Compile Include="OLEDB.vb" />
+    <Compile Include="Test.vb" />
     <Compile Include="YouTube.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

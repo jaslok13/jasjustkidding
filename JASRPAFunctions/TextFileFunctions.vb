@@ -37,7 +37,7 @@ Public Class TextFileFunctions
         If System.IO.File.Exists(strTextFilePath) Then
             strCSV_Text = My.Computer.FileSystem.ReadAllText(strTextFilePath)
         Else
-            Throw New System.Exception("File not found: " & strTextFilePath)
+            Throw New System.Exception("File doesn't exist: " & strTextFilePath)
         End If
         Return strCSV_Text
     End Function
